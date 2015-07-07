@@ -1,0 +1,30 @@
+move-player 12 7
+
+character-say scientistNeutral Something's wrong. These lights aren't supposed to blink...
+pause 500
+camera-fade-immediate 0 255 255 255
+camera-fade 255 255 255 255 500
+pause 500
+
+be-the-mutant
+camera-fade 0 0 255 0 2000
+pause 500
+character-say mutantAngry No! The machine has backfired!
+
+move-player 4 9
+pause 1000
+
+camera-fade-immediate 0 0 0 0
+camera-fade 255 0 0 0 1000
+pause 1000
+
+load-level RestartIntroLab2
+robots-make-puppets
+move-player 5 19
+camera-unfade 1000
+
+pause 1000
+character-say mutantNeutral It's one of my robots!
+character-say robotRedeye NOT HUMAN. EXTERMINATE.
+robots-unmake-puppets
+move-player 23 19

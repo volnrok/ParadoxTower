@@ -1,0 +1,7 @@
+move-player 22 19
+
+disable-all-robots
+character-say mutantHappy Oh look! My temporal escape device!
+
+enable-all-robots
+move-player 22 9

@@ -1,0 +1,18 @@
+# stop player from moving
+disable-player
+
+move-player 7 %Player.Location.Y
+pause 1000
+
+move-player 7 13
+camera-aim-at 7 8
+pause 1000
+
+character-say mutantNeutral Ah ha! I'm glad I had the forsight to put teleporters on even the basement level. It will only bring me up one level, but it's better than the stairs.
+
+camera-aim-at 7 11
+
+character-say mutantNeutral This door seems to be locked, but there should be a keycard somewhere around here. If I can find a keycard, I can use it on the door with <SPACE>.
+
+camera-go-back
+enable-player

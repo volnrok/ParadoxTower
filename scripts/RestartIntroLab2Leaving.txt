@@ -1,0 +1,17 @@
+disable-all-robots
+character-say mutantNeutral Time to blow this popsicle stand!
+
+move-player %Player.Location.X %Player.Location.Y
+camera-fade 255 0 0 0 1000
+pause 1000
+
+level-restore-progress
+player-stop
+camera-moveto %Player.Position.X %Player.Position.Y
+enable-player
+enable-all-robots
+enable-robot-collisions
+player-load-keys
+
+camera-unfade 1000
+pause 1000

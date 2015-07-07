@@ -1,0 +1,9 @@
+disable controls
+addDummyBot 1 3 5
+addDummyBot 2 5 7
+setMoveDummyBot 1 7 8
+pause 500
+movePlayer 7 8
+say Ahhh! I'm Mutated!
+pause 500
+enable controls

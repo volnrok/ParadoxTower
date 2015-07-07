@@ -1,0 +1,13 @@
+disable-player
+disable-all-robots
+move-player %Player.Location.X %Player.Location.Y
+player-save-keys
+camera-fade 255 0 0 0 1000
+pause 1000
+load-next-level
+camera-moveto %Player.Position.X %Player.Position.Y
+player-stop
+camera-unfade 1000
+pause 1000
+enable-player
+enable-all-robots

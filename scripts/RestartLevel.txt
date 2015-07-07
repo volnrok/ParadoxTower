@@ -1,0 +1,25 @@
+disable-robot-collisions
+disable-player
+level-save-progress
+player-no-keys
+
+camera-fade 255 0 0 0 1000
+pause 1000
+load-level Jail
+camera-moveto %Player.Position.X %Player.Position.Y
+player-stop
+player-face 0
+camera-unfade 1000
+pause 1000
+
+say With the mutant securely locked away, the mad scientist began to initiate a familiar series of events...
+camera-fade 255 0 0 0 1000
+pause 1000
+
+load-level RestartIntroLab1
+player-stop
+be-the-scientist
+camera-moveto %Player.Position.X %Player.Position.Y
+camera-unfade 100
+move-player 13 7
+character-say scientistNeutral Now that that's been taken care of, I can return to work.

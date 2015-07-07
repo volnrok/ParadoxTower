@@ -1,0 +1,2 @@
+close-door 11 21
+close-door 12 26

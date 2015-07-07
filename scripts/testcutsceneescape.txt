@@ -1,0 +1,8 @@
+move-player 22 19
+
+disable-all-robots
+character-say mutantHappy Oh look! My temporal escape device!
+character-say mutantNeutral I don't have time to set a location, so I'll just use what coordinates are already there!
+
+enable-all-robots
+move-player 22 9

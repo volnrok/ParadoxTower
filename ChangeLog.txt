@@ -1,0 +1,21 @@
+30/01/2012 10:03 : Terrance : Fixed Scripts by taking ScriptTrigger class out of level,
+                              and (re)adding code to player to detect when a script should be run
+30/01/2012 10:03 : Terrance : Merged config command "robot-add-target"
+30/01/2012 10:12 : Terrance : Added a runnable jar file (in eclipse right click project->export->java->runnable jar file)
+                              Added a batch wile to run the game on Windows.
+30/01/2012 10:35 : Terrance : Added screen to level5 so you can see the scientist
+30/01/2012 19:25 : Sean     : Caused robots to freeze when you hit the telepad in IntroLab2
+30/01/2012 19:30 : Sean     : Made levels clear their list of triggers upon loading
+01/02/2012 17:50 : Sean     : Cleaned up some drawing code related to keys and floors
+01/02/2012 18:05 : Sean     : Player now saves keys on new level, loads keys on death
+01/02/2012 18:25 : Sean     : Added script commands "disable-robot-collisions", "enable-robot-collisions", and "player-face"
+01/02/2012 18:30 : Sean     : Minor changes to IntroLab1
+02/02/2012 16:01 : Sean     : Added camera fading
+02/02/2012 16:24 : Sean     : Changed a bunch of cutscenes to use camera fading
+03/02/2012 02:18 : Terrance : Fixed some stuff with Level5, the enemies attacked before the startup script could puppet them
+                              I just simply added an automatic door
+03/02/2012 02:28 : Terrance : Fixed audio, it now loops properly, and I haven't seen the audio crash yet (crosses fingers)
+                              In case you're curious, it was because the audio thread called start, which stopped the audio
+                              thread before a new thread was made.
+03/02/2012 03:10 : Terrance : Fixed game trying to load a non-existant audio file.
+03/02/2012 03:10 : Terrance : Fixed level2 init script failing to load.

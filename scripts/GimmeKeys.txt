@@ -1,0 +1,5 @@
+disable-player
+say You found two keys!
+player-add-key 255 0 0
+player-add-key 0 0 255
+enable-player

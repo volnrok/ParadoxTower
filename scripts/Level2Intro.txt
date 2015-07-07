@@ -1,0 +1,23 @@
+disable-player
+pause 1000
+
+move-player 15 24
+pause 1000
+
+character-say mutantNeutral I think I hear a robot nearby!
+
+camera-aim-at 13 11
+pause 500
+character-say mutantNeutral It would probably be best if I avoid it.
+
+camera-aim-at 19 17
+pause 500
+character-say mutantNeutral But I need that keycard.
+
+camera-aim-at 9 9
+pause 500
+character-say mutantNeutral Guess I'll have to sneak by
+
+camera-go-back
+
+enable-player

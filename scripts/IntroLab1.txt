@@ -1,0 +1,40 @@
+camera-fade-immediate 255 0 0 0
+be-the-scientist
+disable-player
+
+camera-moveto %Player.Position.X %Player.Position.Y
+camera-unfade 1000
+pause 1000
+
+say An evil scientist lurks in his laboratory.
+character-say scientistAngry Mwahahahaha!
+character-say scientistNeutral With my mutatatron X9000,
+character-say scientistAngry I WILL RULE THE WORLD!
+
+move-player 12 7
+
+pause 500
+
+character-say scientistNeutral Something's wrong. These lights aren't supposed to blink...
+
+pause 500
+
+camera-fade-immediate 0 255 255 255
+camera-fade 255 255 255 255 500
+pause 500
+be-the-mutant
+
+camera-fade 0 0 255 0 2000
+pause 500
+
+character-say mutantAngry No! The machine has backfired!
+character-say mutantNeutral I'm sure I have some machines to fix this in the lab somewhere.
+
+move-player 4 9
+pause 1000
+
+camera-fade-immediate 0 0 0 0
+camera-fade 255 0 0 0 1000
+pause 1000
+
+load-next-level

@@ -1,0 +1,21 @@
+disable-player
+
+pause 1000
+
+move-player 6 %Player.Location.Y
+pause 1000
+
+character-say mutantNeutral Where am I?
+
+move-player 8 %Player.Location.Y
+pause 1000
+
+character-say mutantNeutral Is this the basement? I haven't been down here for years.
+
+move-player 7 %Player.Location.Y
+pause 200
+
+move-player 7 21
+pause 200
+
+enable-player

@@ -1,0 +1,52 @@
+disable-player
+robots-make-puppets
+
+camera-moveto %Player.Position.X %Player.Position.Y
+
+move-player 5 19
+pause 1000
+
+character-say mutantNeutral It's one of my robots!
+character-say robotNeutral LIFEFORM DETECTED.
+character-say robotScanning SCANNING...
+character-say robotRedeye NOT HUMAN. EXTERMINATE.
+character-say mutantNeutral That's not good.
+character-say mutantAngry Good thing I've got my stun pistol!
+
+camera-aim-at 5 12
+pause 100
+
+robot-move A 4 8
+robot-move B 6 8
+
+pause 400
+
+robot-move A 4 9
+robot-move B 6 9
+robot-move C 4 10
+robot-move D 6 10
+
+pause 400
+
+robot-move C 4 11
+robot-move D 6 11
+robot-move E 4 12
+robot-move F 6 12
+
+pause 400
+
+robot-move E 4 13
+robot-move F 6 13
+robot-move G 4 14
+robot-move H 6 14
+
+pause 400
+
+robot-move G 4 15
+robot-move H 6 15
+
+character-say mutantNeutral That's really not good.
+
+camera-go-back
+robots-unmake-puppets
+move-player 23 19

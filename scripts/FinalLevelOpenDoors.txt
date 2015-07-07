@@ -1,0 +1,21 @@
+open-door 18 21
+
+open-door 6 20
+
+open-door 6 15
+
+open-door 6 10
+
+open-door 8 7
+
+open-door 12 5
+
+open-door 17 5
+
+open-door 22 5
+
+open-door 23 8
+
+open-door 23 13
+
+open-door 23 18

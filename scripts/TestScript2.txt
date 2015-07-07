@@ -1,0 +1,7 @@
+disable-player
+move-player 7 9
+say Terrance: Success!!!
+pause 500
+say Terrance: I can do this from a script now!
+say Very, very, very, very, very, very, very, very, very, very, very, very long line.
+enable-player

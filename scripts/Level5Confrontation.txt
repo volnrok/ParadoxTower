@@ -1,0 +1,49 @@
+disable-player
+
+move-player 12 21
+pause 1000
+
+open-door 12 19
+
+move-player 12 17
+pause 1000
+
+close-door 12 19
+
+robot-move A 10 15
+robot-move B 14 15
+
+character-say scientistNeutral Well... What to we have here? Some sort of failed experiment? Robots!
+
+robot-move A 10 16
+robot-move B 14 16
+robot-move C 12 15
+
+character-say mutantAngry But I'm YOU! I came to save you... er... me.
+
+character-say scientistNeutral Nice try, but there's no way I would let my self fall into such a pathetic state. Robots, clean up this mess.
+
+character-say robotRedeye EXTERMINATE!!!
+
+move-player 15 17
+pause 500
+
+move-player 16 16
+pause 500
+
+player-remove-key 0 255 0
+open-door 17 16
+
+move-player 19 16
+
+robot-move A 16 17
+robot-move B 16 14
+robot-move C 15 16
+
+pause 500
+
+close-door 17 16
+player-remove-key 0 255 0
+
+enable-player
+robots-unmake-puppets
